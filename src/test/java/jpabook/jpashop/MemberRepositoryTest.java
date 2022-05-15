@@ -36,6 +36,8 @@ public class MemberRepositoryTest {
         Assertions.assertThat(findMember).isEqualTo(member);
         System.out.println("findMember == member : " + (findMember == member));
         // 영속성 컨텍스트 안에서 같은 식별자를 가지면 완전히 동일한 객체로 취급한다.
+
+        // test
     }
 
 }
